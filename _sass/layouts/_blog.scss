@@ -1,44 +1,42 @@
 /* --- Header text feature --- */
 .call-out {
-  @extend %padding-header;
-  display: inline-block;
-  width: 100%;
-  height: 100%;
-  font-size: 1.2em;
-  text-align: center;
-  color: $header-text-color;
-  background: no-repeat $header-background-color;
-  background-size: $feature-image-size;
+    @extend %padding-header;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    font-size: 1.2em;
+    text-align: center;
+    color: #5A5AFF;
+    background: no-repeat $header-background-color;
+    background-size: $feature-image-size;
+    /* --- Responsive --- */
+    @media screen and (min-width: $break) {
+        background-size: 120% auto;
+    }
 
-  /* --- Responsive --- */
-  @media screen and (min-width: $break) {
-    background-size: 120% auto;
-  }
+    @media screen and (max-width: $break) {
+        background-size: 200% auto;
+    }
 
-  @media screen and (max-width: $break) {
-    background-size: 200% auto;
-  }
+    @media screen and (max-width: $sm-break) {
+        background-size: 400% auto;
+    }
+    //For white images
+    p,
+    a,
+    li,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        font-family: $font-family-logo;
+        @extend .header-txt-shadow;
+    }
 
-  @media screen and (max-width: $sm-break) {
-    background-size: 400% auto;
-  }
-
-  //For white images
-  p,
-  a,
-  li,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5 {
-    font-family: $font-family-logo;
-    @extend .header-txt-shadow;
-  }
-
-  p:last-child {
-    margin-bottom: 0;
-  }
+    p:last-child {
+        margin-bottom: 0;
+    }
 }
 
 #main {
