@@ -13,8 +13,6 @@ thumbnail:
 hide_title: true 타이틀 숨기기
 ---
 
-
-
 이미지 삽입
 {% include aligner.html images="pexels/book-glass.jpeg,triangle.png" %} 2개
 {% include aligner.html images="portfolio/cabin.png,portfolio/cake.png,portfolio/circus.png" column=3 %} 3개
@@ -22,3 +20,13 @@ hide_title: true 타이틀 숨기기
 ![Travel]({{ "/assets/img/pexels/computer.jpeg" | relative_url}})
 # Aligner with only One (50% of width)
 {% include aligner.html images="pexels/computer.jpeg" %}
+
+코드블럭
+
+```
+public class BootSpringBootApplication {
+
+}
+```
+수평선
+***
