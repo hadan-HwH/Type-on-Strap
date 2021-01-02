@@ -9,7 +9,7 @@ avatar: assets/img/icon_duck.jpg                        # Empty for no avatar in
 favicon: assets/favicon.ico                             # Icon displayed in the tab
 
 # Header and footer text
-header_text: Today I Learn... and  # Change Blog header text
+header_text: Today I Learn  # Change Blog header text
 header_feature_image: assets/img/pexels/blog_banner.jpg
 footer_text: >
   Go to the <a href="https://github.com/hadan-HwH">github</a>
