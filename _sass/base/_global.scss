@@ -141,13 +141,13 @@ img[align=right] {
     overflow-x: scroll;
   }
 }
-
+//'>' in list ¹Ú½º
 blockquote {
-  border-left: 2px solid darken($blockquote-color, 20%);
-  margin: 1em 1em;
-  padding: 0.75em 1em;
-  background-color: $blockquote-color;
-  box-shadow: 0 2px 2px $border-color;
+    border-left: 2px solid darken(#708090, 20%);
+    margin: 0.2em 1em;
+    padding: 0.75em 1em;
+    background-color: #fffafa;
+    box-shadow: 0 2px 2px $border-color;
 }
 
 blockquote *:last-child,
@@ -221,8 +221,8 @@ ul {
 
 hr {
   border: 0;
-  border-top: 1px solid $border-color;
-  border-bottom: 1px solid #fff;
+  border-top: 0.5px solid $border-color;
+  border-bottom: 0.5px solid #fff;
   margin: 1em 0;
 }
 
