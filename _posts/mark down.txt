@@ -1,0 +1,24 @@
+---
+layout: post
+title: 
+tags: [Test, Markdown]
+
+feature-img: "assets/img/desk-messy.jpg" 포스트 내 이미지
+thumbnail: "assets/img/thumbnails/desk-messy.jpg" 홈에서 섬네일
+
+author: rohanchandra
+color: rgb(230, 230, 255)
+feature-img: 
+thumbnail: 
+hide_title: true 타이틀 숨기기
+---
+
+
+
+이미지 삽입
+{% include aligner.html images="pexels/book-glass.jpeg,triangle.png" %} 2개
+{% include aligner.html images="portfolio/cabin.png,portfolio/cake.png,portfolio/circus.png" column=3 %} 3개
+# Markdown way (bigger)
+![Travel]({{ "/assets/img/pexels/computer.jpeg" | relative_url}})
+# Aligner with only One (50% of width)
+{% include aligner.html images="pexels/computer.jpeg" %}
