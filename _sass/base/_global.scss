@@ -1,9 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 figure {
@@ -16,7 +14,7 @@ figure {
 }
 
 html {
-    background: #fffdfa; //body 배경색
+  background: $background-color;
 }
 
 // Typography
@@ -29,10 +27,10 @@ html {
 }
 
 body {
-    color: $text-color;
-    font-family: 'Noto Sans KR', sans-serif; 
-    font-size: 0.9em;
-    word-wrap: break-word;
+  color: $text-color;
+  font-family: $font-family-main;
+  font-size: $font-size;
+  word-wrap: break-word;
 }
 
 h1,
@@ -41,25 +39,26 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Noto Sans KR', sans-serif;
-    line-height: 1.1;
-    margin: 0.67em 0;
+  font-family: $font-family-headings;
+  line-height: 1.3;
+  margin: 0.67em 0;
 
-    a {
-        color: #fffdfa;
-    }
+  a {
+    color: $text-color;
+  }
+
 }
 
 h1 {
-  font-size: 2.0em;
+  font-size: 2.3em;
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 1.75em;
 }
 
 h3 {
-  font-size: 1.3em;
+  font-size: 1.5em;
 }
 
 h4 {
@@ -141,13 +140,13 @@ img[align=right] {
     overflow-x: scroll;
   }
 }
-//'>' in list 박스
+
 blockquote {
-    border-left: 2px solid darken(#fffdfa, 20%);
-    margin: 0.2em 1em;
-    padding: 0.75em 1em;
-    background-color: #fffdfa;
-    box-shadow: 0 2px 2px $border-color;
+  border-left: 2px solid darken($blockquote-color, 20%);
+  margin: 1em 1em;
+  padding: 0.75em 1em;
+  background-color: $blockquote-color;
+  box-shadow: 0 2px 2px $border-color;
 }
 
 blockquote *:last-child,
@@ -221,8 +220,8 @@ ul {
 
 hr {
   border: 0;
-  border-top: 0.5px solid $border-color;
-  border-bottom: 0.5px solid #fff;
+  border-top: 1px solid $border-color;
+  border-bottom: 1px solid #fff;
   margin: 1em 0;
 }
 
