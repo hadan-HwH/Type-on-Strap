@@ -1,7 +1,8 @@
 // Typography
-$font-family-main: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-$font-family-headings: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-$font-family-logo: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+$font-family-main: 'Source Sans Pro', Helvetica, Arial, sans-serif, 'Noto Sans KR', sans-serif;
+$font-family-headings: 'Source Sans Pro', Helvetica, Arial, sans-serif, 'Noto Sans KR', sans-serif;
+$font-family-logo: 'Source Sans Pro', Helvetica, Arial, sans-serif, 'Noto Sans KR', sans-serif;
 $font-size: 1.1em;
 
 // Padding
