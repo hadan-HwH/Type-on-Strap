@@ -16,7 +16,7 @@ figure {
 }
 
 html {
-    background: #fffafa; //body 배경색
+    background: #fffdfa; //body 배경색
 }
 
 // Typography
@@ -46,7 +46,7 @@ h6 {
     margin: 0.67em 0;
 
     a {
-        color: #fffafa;
+        color: #fffdfa;
     }
 }
 
@@ -143,10 +143,10 @@ img[align=right] {
 }
 //'>' in list 박스
 blockquote {
-    border-left: 2px solid darken(#708090, 20%);
+    border-left: 2px solid darken(#fffdfa, 20%);
     margin: 0.2em 1em;
     padding: 0.75em 1em;
-    background-color: #fffafa;
+    background-color: #fffdfa;
     box-shadow: 0 2px 2px $border-color;
 }
 
